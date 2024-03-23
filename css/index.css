@@ -5912,7 +5912,7 @@ blockquote.pullquote.right {
   --pseudo-hover: none;
 }
 [data-theme='dark'] .read-mode {
-  --font-color: rgba(255,255,255,0.7);
+  --font-color: rgba(0,0,0,0.7);
   --readmode-light-color: #0d0d0d;
   --white: rgba(255,255,255,0.9);
   --light-grey: rgba(255,255,255,0.7);
