@@ -5770,7 +5770,7 @@ blockquote.pullquote.right {
 }
 [data-theme='dark'] {
   --global-bg: #0d0d0d;
-  --font-color: rgba(255,255,255,0.9);
+  --font-color: #fff;
   --hr-border: rgba(255,255,255,0.4);
   --hr-before-color: rgba(255,255,255,0.7);
   --search-bg: #121212;
@@ -5783,7 +5783,7 @@ blockquote.pullquote.right {
   --tab-botton-color: rgba(255,255,255,0.7);
   --tab-button-hover-bg: #383838;
   --tab-button-active-bg: #121212;
-  --card-bg: #121212;
+  --card-bg: rgba(0,0,0,0.4);
   --sidebar-bg: #121212;
   --btn-hover-color: #787878;
   --btn-color: rgba(255,255,255,0.7);
@@ -5912,7 +5912,7 @@ blockquote.pullquote.right {
   --pseudo-hover: none;
 }
 [data-theme='dark'] .read-mode {
-  --font-color: rgba(255,255,255,0.9);
+  --font-color: #fff;
   --readmode-light-color: #0d0d0d;
   --white: rgba(255,255,255,0.9);
   --light-grey: rgba(255,255,255,0.7);
