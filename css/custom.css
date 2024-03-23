@@ -1,21 +1,19 @@
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
-  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+/* 默认情况下缩进左侧66px，只留一点箭头部分 */
 }
-
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
   left: 0 !important;
-  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+/* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
-
 svg.icon {
-   width: 1em; height: 1em;
-   /* width和height定义图标的默认宽度和高度*/
-   vertical-align: -0.15em;
-   fill: currentColor;
-   overflow: hidden;
+  width: 1em;
+  height: 1em;
+/* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
-
 /* 右键菜单 */
 #rightMenu {
   display: none;
@@ -24,9 +22,9 @@ svg.icon {
   height: fit-content;
   top: 10%;
   left: 10%;
-    /* 菜单面板背景色 */
+/* 菜单面板背景色 */
   background-color: var(--card-bg);
-    /* 菜单面板文字颜色 */
+/* 菜单面板文字颜色 */
   border: 1px solid var(--font-color);
   border-radius: 8px;
   z-index: 100;
@@ -55,7 +53,7 @@ svg.icon {
   padding: 0 4px;
 }
 #rightMenu .rightMenu-group .rightMenu-item:hover {
-    /* 鼠标悬浮选项颜色 */
+/* 鼠标悬浮选项颜色 */
   background-color: var(--text-bg-hover);
 }
 #rightMenu .rightMenu-group .rightMenu-item i {
@@ -69,7 +67,6 @@ svg.icon {
 #rightMenu .rightMenu-group .rightMenu-item span {
   line-height: 30px;
 }
-
 #rightMenu .rightMenu-group.rightMenu-line .rightMenu-item * {
   height: 40px;
   line-height: 40px;
