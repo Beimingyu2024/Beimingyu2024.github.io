@@ -1,0 +1,28 @@
+/* 文章页背景 */
+.layout_post>#post {
+/* 以下代表透明度为0.7 可以自行修改*/
+  background: rgba(255,255,255,0.7);
+}
+/* 所有页面背景 */
+#aside_content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post {
+/* 以下代表透明度为0.7 */
+  background: rgba(255,255,255,0.7);
+}
+/* 页脚透明 */
+#footer {
+/* 以下代表透明度为0.7 */
+  background: rgba(255,255,255,0);
+}
+.read-mode {
+/*侧边卡片的透明度 */
+  --card-bg: rgba(255,255,255,0.7);
+}
+[data-theme='dark'] .read-mode {
+/*侧边卡片的透明度 */
+  --card-bg: rgba(0,0,0,0.4);
+}
